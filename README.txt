@@ -10,52 +10,10 @@
 Introduction
 ------------
 
-This is a beta version of the Python module for Godot.
-
-You are likely to encounter bugs and catastrophic crashes, if so please
-report them to https://github.com/touilleMan/godot-python/issues.
-
-
-Working features
-----------------
-
-Every Godot core features are expected to work fine:
-- builtins (e.g. Vector2)
-- Objects classes (e.g. Node)
-- signals
-- variable export
-- rpc synchronisation
-
-On top of that, mixing GDscript and Python code inside a project should work fine.
-
-
-Using Pip
----------
-
-Pip must be installed first with `ensurepip`:
-
-On Windows:
-```
-$ <pythonscript_dir>/windows-64/python.exe -m ensurepip  # Only need to do that once
-$ <pythonscript_dir>/windows-64/python.exe -m pip install whatever
-```
-
-On Linux/macOS:
-```
-$ <pythonscript_dir>/x11-64/bin/python3 -m ensurepip  # Only need to do that once
-$ <pythonscript_dir>/x11-64/bin/python3 -m pip install whatever
-```
-
-Note you must use `python -m pip` to invoke pip (using the command `pip`
-directly will likely fail in a cryptic manner)
-
-
-Not so well features
---------------------
-
-Exporting the project hasn't been tested at all (however exporting for linux should be pretty simple and may work out of the box...).
-
-
-Have fun ;-)
-
-  - touilleMan
+J'ai essayé de creer un executable en passant par godot l'editeur de jeux mais je n'ai pas réussi.
+la V2 Marche mais la V3 ne fonctione pas
+Pour voir comment la v2 fonctionne il suffit de lancer le programme depuis un cmd avec la python3
+Pour voir ce que j'ai tenté de faire avec Godot il faut téléchargé le moteur godot
+[Godot download](https://godotengine.org/download/linux)
+puis faut navigué dans la scene et enfin la joué grace a f4
+dans la console le temps que ca charge on devrait avoir les infos d'un site scrap bs4
